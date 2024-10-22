@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "signals-and-data"
+version = "2.0.1"
+description = ""
+authors = ["Hiba Nassar", "Jonathan Foldager", "Fabian Scott", "Karl Meisner-Jensen"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+scipy = "^1.13.1"
+librosa = "^0.10.2.post1"
+numpy = "^1.26.4"
+nltk = "^3.9.1"
+pillow = "^10.4.0"
+matplotlib = "^3.9.2"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+torch = "^2.4.1"
+torchvision = "^0.19.1"
+tqdm = "^4.66.5"
+ipykernel = "^6.29.5"
+mne = "^1.8.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
